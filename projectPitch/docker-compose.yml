@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.3'
 
 services:
   pitch:
@@ -10,3 +10,5 @@ services:
     environment:
       - POETRY_VIRTUALENVS_IN_PROJECT=true
       - ABOT_TOKEN
+    env_file:
+      - .env
