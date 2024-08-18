@@ -1,0 +1,14 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "projectPitch"
+version = "1.0.0"
+description = "A project pitch bot for About Repetition"
+homepage = "https://github.com/SimonZimmer/projectPitch"
+authors = ["SimonZimmer <mail@simonzimmermann.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord = "^2.3.2"

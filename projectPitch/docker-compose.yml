@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pitch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/pitchProject
+    environment:
+      - POETRY_VIRTUALENVS_IN_PROJECT=true
+      - ABOT_TOKEN
